@@ -1,0 +1,32 @@
+package ibitsmain;
+
+import java.awt.EventQueue;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+/**
+ *
+ * @author Admin
+ */
+public class IbitsMain {
+    
+    
+    
+    
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable(){
+            @Override
+            public void run() {
+                login l = new login();
+                l.setVisible(true);
+                
+                
+            }
+    
+    
+    
+            });
+    }
+    
+}
